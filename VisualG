@@ -1,0 +1,24 @@
+ALGORITMO "Ordem alfabetica"
+var
+nome:vetor[0..20] de caractere
+i,j: inteiro
+aux: caractere
+inicio
+para i de 0 ate 20 faça
+leia (nome[i])
+fimpara
+para i de 0 ate 20 faça
+para j de i+1 ate 20 faça
+se nome [i]> nome [j] então
+aux<-nome[i]
+nome[i]<-nome[j]
+nome[j]<-aux
+fimse
+fimpara
+fimpara
+escreval (" ")
+escreval (" ")
+para i de 0 ate 5 faça
+     escreval (nome[i])
+     fimpara
+     fimalgoritmo
